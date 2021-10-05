@@ -1,5 +1,5 @@
 #Calculator Program
-#Edited by Namita Pathak
+#Edited by Namita Pathaks
 result=0
 val1=float(input("Enter your first  number:"))
 val2=float(input("Enter your second number:"))

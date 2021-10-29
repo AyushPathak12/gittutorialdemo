@@ -1,4 +1,4 @@
-i=0
-while(i<45):
+i=int(input("Please Enter a number less than thousand: "))
+while(i<1000):
     print(i)
     i=i+1

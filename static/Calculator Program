@@ -1,19 +1,16 @@
 #Calculator Program
-#Edited by Namita Pathaks
+#Edited by Gurleen Kaur
 result=0
-val1=float(input("Enter your first  number:"))
-val2=float(input("Enter your second number:"))
-op=input("Enter a operator \n + \n - \n * \n %\n ")
-if op == "+":
+value1=float(input("Enter your first number:"))
+value2=float(input("Enter your second number:"))
+operator=input("Enter a operator \n + \n - \n * \n %\n ")
+if operator == "+":
     print("Addition is=" , val1+val2)
-elif op == "-":
+elif operator == "-":
     print("Subtaction is=" , val1-val2)              
-elif op == "*":
+elif operator == "*":
     print("Multiplication is=" , val1*val2)
-elif op == "%":
+elif operator == "%":
     print("Division is=" , val1/val2)
 else:
     print("Error Please give a right operator")
-
-              
-              

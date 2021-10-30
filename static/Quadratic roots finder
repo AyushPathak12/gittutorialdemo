@@ -1,7 +1,7 @@
 import math
 choice='y'
 while choice=='y' or choice=='Y':
-    print("For quadratic equation, ax**2+bx+c=0, enter coefficients below")
+    print("For quadratic equation (ax**2+bx+c=0) enter coefficients a,b and c")
     a=int(input("Enter a:"))
     b=int(input("Enter b:"))
     c=int(input("Enter c:"))
@@ -23,4 +23,3 @@ while choice=='y' or choice=='Y':
         else:
             print("Roots are COMPLEX and IMAGINARY")   
             choice=input("Press y to continue else press any other key.")
-    
